@@ -1,0 +1,48 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+!*.tfvars.template
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Ansible
+*.retry
+.vault_pass
+
+# Cloud and local tool credentials/configuration
+.aws/
+.azure/
+.kube/
+.terraformrc
+terraform.rc
+
+# Logs, temporary files, and generated artifacts
+*.log
+*.tmp
+*.bak
+.cache/
+tmp/
+temp/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
