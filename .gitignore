@@ -1,3 +1,6 @@
+# Intro DevOps files
+node_modules
+
 # Environment files and secrets
 .env
 .env.*
